@@ -1,5 +1,5 @@
 {
-  description = "KooL's NixOS-Hyprland"; 
+  description = "VMLAB NixOS-Hyprland"; 
   	
   inputs = {
   	nixpkgs.url = "nixpkgs/nixos-unstable";
@@ -13,7 +13,7 @@
     	let
       system = "x86_64-linux";
       host = "NixOS-Hyprland";
-      username = "alice";
+      username = "nix";
 
     pkgs = import nixpkgs {
        	inherit system;
