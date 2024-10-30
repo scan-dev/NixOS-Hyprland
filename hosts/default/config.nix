@@ -149,7 +149,7 @@
 	
 	  waybar.enable = true;
 	  hyprlock.enable = true;
-	  firefox.enable = true;
+	  brave.enable = true;
 	  git.enable = true;
     nm-applet.indicator = true;
     #neovim.enable = true;
@@ -193,6 +193,7 @@
   # System Packages
     baobab
     bat
+    brave
     btrfs-progs
     clang
     curl
@@ -343,7 +344,7 @@
     openssh = {
       enable = true;
       ports = [2222];
-    }
+    };
     flatpak.enable = false;
 	
   	blueman.enable = true;

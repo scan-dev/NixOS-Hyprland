@@ -3,7 +3,7 @@
   	
   inputs = {
   	nixpkgs.url = "nixpkgs/nixos-unstable";
-	#wallust.url = "git+https://codeberg.org/explosion-mental/wallust?ref=dev";
+	wallust.url = "git+https://codeberg.org/explosion-mental/wallust?ref=dev";
 	hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1"; # hyprland development
 	distro-grub-themes.url = "github:AdisonCavani/distro-grub-themes"; 
   	};
@@ -12,7 +12,7 @@
 	inputs@{ self,nixpkgs, ... }:
     	let
       system = "x86_64-linux";
-      host = "hypr-nix";
+      host = "default";
       username = "nix";
 
     pkgs = import nixpkgs {
