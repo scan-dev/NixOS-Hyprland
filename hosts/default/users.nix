@@ -33,20 +33,20 @@ in
     
   programs = {
   # Zsh configuration
-	  zsh = {
-    	enable = true;
-	  	enableCompletion = true;
-      ohMyZsh = {
+      zsh = {
         enable = true;
-        plugins = ["git"];
-        theme = "xiong-chiamiov-plus"; 
+        enableCompletion = true;
+        ohMyZsh = {
+          enable = true;
+          plugins = ["git"];
+          theme = "xiong-chiamiov-plus"; 
       	};
+
+        autosuggestions.enable = true;
+        syntaxHighlighting.enable = true;
       
-      autosuggestions.enable = true;
-      syntaxHighlighting.enable = true;
-      
-      promptInit = ''
-        fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
+        promptInit = ''
+          fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
         
         #pokemon colorscripts like. Make sure to install krabby package
         #krabby random --no-mega --no-gmax --no-regional --no-title -s; 

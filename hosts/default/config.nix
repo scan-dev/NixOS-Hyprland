@@ -149,9 +149,9 @@
 	
 	  waybar.enable = true;
 	  hyprlock.enable = true;
-	  brave.enable = true;
+	  firefox.enable = true;
 	  git.enable = true;
-    nm-applet.indicator = true;
+          nm-applet.indicator = true;
     #neovim.enable = true;
 
 	  thunar.enable = true;
@@ -196,11 +196,11 @@
     brave
     btrfs-progs
     clang
+    codium
     curl
     cpufrequtils
     duf
     eza
-    fastfetch
     ffmpeg   
     glib #for gsettings to work
     gsettings-qt
@@ -215,6 +215,7 @@
     xdg-user-dirs
     xdg-utils
 
+    fastfetch
     (mpv.override {scripts = [mpvScripts.mpris];}) # with tray
     #ranger
       
@@ -341,10 +342,7 @@
     rpcbind.enable = false;
     nfs.server.enable = false;
   
-    openssh = {
-      enable = true;
-      ports = [2222];
-    };
+    openssh.enable = true;
     flatpak.enable = false;
 	
   	blueman.enable = true;

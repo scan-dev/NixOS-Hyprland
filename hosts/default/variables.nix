@@ -2,7 +2,6 @@
   # Git Configuration ( For Pulling Software Repos )
   gitUsername = "scan-dev";
   gitEmail = "scan@vmlab.be";
-  #gitEmail = "ejhay.games@gmail.com";
 
   # Hyprland Settings
   extraMonitorSettings = "";
