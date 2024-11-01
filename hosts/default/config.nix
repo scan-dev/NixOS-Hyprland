@@ -196,7 +196,6 @@
     brave
     btrfs-progs
     clang
-    codium
     curl
     cpufrequtils
     duf
@@ -211,6 +210,7 @@
     openssl #required by Rainbow borders
     pciutils
     vim
+    vscodium
     wget
     xdg-user-dirs
     xdg-utils
